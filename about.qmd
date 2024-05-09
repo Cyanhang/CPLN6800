@@ -1,13 +1,13 @@
 ---
-title: "About us"
+title: "About Professor"
 ---
 
 <!-- Use a grid -->
 ::: {.grid}
 
-<!-- Left column has a width of 4/12 and shows a picture of me -->
+<!-- Left column has a width of 4/12 and shows a picture of Dr. Eric Delmelle -->
 ::: {.g-col-4}
-![](images/nickhand-profile.jpg){width=3in}
+![](images/Eric.jpeg){width=3in}
 :::
 
 <!-- Text gets a column with width 8/12 -->

@@ -7,36 +7,33 @@ subtitle: "A Case Study on Texas State"
 
 We seek to understand how feasible multimodal transport routes are in optimizing for minimal monetary costs and minimal social and environmental risk. 
 
-![Texas](images/Texas_overall.jpg)
+![Texas](images/texas2.jpg)
 
 ::: {.callout-important}
 Further inputs are needed to complete this project
 :::
 
+## Study Area Selection
+
+Why Texas? According to ... Texas State emits far more than any other states in the US. 
+
+![US States Average Annual CO2 Emission by 2021](images/US-co2-state.png)
+
+
 ## Visual Overview of Multimodal Transport Routes
 
-Here, we can visualize the different transport routes considered in this study:
+Here, we can visualize the different transport modes considered in this study: 
 
-![Transport Route Map](path/to/your/transport-route-map.png)
+![Transport Mode Route Map - Pipe](images/texas_pipe.jpg)
+![Transport Mode Route Map - Rail](images/texas_rail.jpg)
+![Transport Mode Route Map - Truck](images/texas_truck.jpg)
 
 ## Cost and Risk Analysis
 
 In this section, we analyze the costs associated with each transport mode and evaluate the associated social and environmental risks.
 
-![Cost and Risk Analysis Chart](path/to/your/cost-risk-analysis.png)
+![Risk Analysis Equations](images/Risk Equations.png)
 
-## Further Findings and Data Insights
-
-This section provides additional insights gathered from the data analysis.
-
-![Data Insights Image](path/to/your/data-insights-image.png)
-
-## Find out more
-
-The code for this repository is hosted on our course's GitHub page: [https://github.com/MUSA-550-Fall-2023/quarto-website-template](https://github.com/MUSA-550-Fall-2023/quarto-website-template).
-
-We covered the basics of getting started with Quarto and GitHub Pages in week 9. Take a look at
-[the slides for lecture 9A](https://musa-550-fall-2023.github.io/content/week-9/lecture-9A.html) to find out more.
 
 ## Additional Resources and References
 

@@ -15,7 +15,7 @@ website:
     left: "&copy; CC-Ke Zhou, Hang Zhao, Timothy Oliver, Nohman; 2024"
 
   sidebar:
-    logo: "images/course-icon.png"
+    logo: "images/UPenn.png"
     pinned: true
     align: center
     tools: 
@@ -32,7 +32,7 @@ website:
     collapse-level: 2
     contents:
       - href: index.qmd
-        text: Welcome
+        text: Main
       - about.qmd
       - section: Exploratory Analysis/index.qmd
         contents:
