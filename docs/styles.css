@@ -1,1 +1,87 @@
 /* css styles */
+/* General body styles */
+body {
+    font-family: 'Merriweather', serif;
+    color: #333333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #004D40;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #00251a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/* Sidebar customization */
+.sidebar {
+    background-color: #eeeeee;
+    border-right: 1px solid #cccccc;
+}
+
+/* Hyperlinks styling */
+a {
+    color: #00695C;
+    text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Custom styles for navigation links */
+.nav-link {
+    font-size: 1.1em;
+    color: #00575b;
+}
+
+/* Styling for tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+/* Styling for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers images */
+}
+
+/* Enhancements for code blocks */
+pre code {
+    background-color: #e0f2f1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Adjustments for buttons */
+button {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00897b;
+}
