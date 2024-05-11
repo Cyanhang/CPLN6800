@@ -81,7 +81,7 @@
     "href": "index.html",
     "title": "CPLN 6800 GIS Capstone: CO2 Transportation",
     "section": "",
-    "text": "We seek to understand how feasible multimodal transport routes are in optimizing for minimal monetary costs and minimal social and environmental risk.\n\n\n\nTexas\n\n\n\n\n\n\n\n\nImportant\n\n\n\nFurther inputs are needed to complete this project"
+    "text": "We seek to understand how feasible multimodal transport routes are in optimizing for minimal monetary costs and minimal social and environmental risk for CO2 Transportation.\n\n\n\nCCS Capacity\n\n\n\n\n\n\n\n\nImportant\n\n\n\nFurther inputs are needed to complete this project"
   },
   {
     "objectID": "index.html#welcome",
@@ -151,7 +151,7 @@
     "href": "index.html#introduction",
     "title": "CPLN 6800 GIS Capstone: CO2 Transportation",
     "section": "",
-    "text": "We seek to understand how feasible multimodal transport routes are in optimizing for minimal monetary costs and minimal social and environmental risk.\n\n\n\nTexas\n\n\n\n\n\n\n\n\nImportant\n\n\n\nFurther inputs are needed to complete this project"
+    "text": "We seek to understand how feasible multimodal transport routes are in optimizing for minimal monetary costs and minimal social and environmental risk for CO2 Transportation.\n\n\n\nCCS Capacity\n\n\n\n\n\n\n\n\nImportant\n\n\n\nFurther inputs are needed to complete this project"
   },
   {
     "objectID": "index.html#visual-overview-of-multimodal-transport-routes",
@@ -165,7 +165,7 @@
     "href": "index.html#cost-and-risk-analysis",
     "title": "CPLN 6800 GIS Capstone: CO2 Transportation",
     "section": "Cost and Risk Analysis",
-    "text": "Cost and Risk Analysis\nIn this section, we analyze the costs associated with each transport mode and evaluate the associated social and environmental risks.\n\n\n\nRisk Analysis Equations"
+    "text": "Cost and Risk Analysis\nIn this section, we analyze the costs associated with each transport mode and evaluate the associated social and environmental risks.\n\n\n\nRisk Analysis Equations\n\n\n\n\n\n\n\n\nImportant\n\n\n\nFurther inputs are needed to complete this"
   },
   {
     "objectID": "index.html#further-findings-and-data-insights",
@@ -179,7 +179,7 @@
     "href": "index.html#additional-resources-and-references",
     "title": "CPLN 6800 GIS Capstone: CO2 Transportation",
     "section": "Additional Resources and References",
-    "text": "Additional Resources and References\nHere are some further resources and references used in this project:\n\n\n\nReferences Image"
+    "text": "Additional Resources and References"
   },
   {
     "objectID": "Preliminary Results/index.html",
@@ -191,9 +191,9 @@
   {
     "objectID": "Exploratory Analysis/index.html",
     "href": "Exploratory Analysis/index.html",
-    "title": "Exploratory Analysis",
+    "title": "Results & Output",
     "section": "",
-    "text": "Exploratory Analysis"
+    "text": "Routing\nOrigin-Destination Matrix\n\n\n\n\nOptimal Route for COST and RISK\nImpedance values for solution pairs\n\n\n- Impedance with…\n\n\n\n- Truck_Risk: Details\n\n\n\n- Truck_Cost: Details\n\n\n\n- Rail_Risk: Details\n\n\n\n- Rail_Cost: Details\n\n\n\n- Pipeline_Risk: Details"
   },
   {
     "objectID": "Exploratory Analysis/2-static-images.html",
@@ -214,6 +214,34 @@
     "href": "index.html#study-area-selection",
     "title": "CPLN 6800 GIS Capstone: CO2 Transportation",
     "section": "Study Area Selection",
-    "text": "Study Area Selection\nWhy Texas? According to … Texas State emits far more than any other states in the US.\n\n\n\nUS States Average Annual CO2 Emission by 2021"
+    "text": "Study Area Selection\nWhy Texas? According to Energy Information Administration (EIA), Texas State emits the most CO2 across all states, over 600 million tons, far more than any other states in the US. This is due to the state’s numerous heavy industries including oil and gas refineries, dense population, and well-developed infrastructure and transportation system.\n\n\n\nUS States Average Annual CO2 Emission by 2021"
+  },
+  {
+    "objectID": "Exploratory Analysis/index.html#routing-and-origin-destination-matrix-analysis",
+    "href": "Exploratory Analysis/index.html#routing-and-origin-destination-matrix-analysis",
+    "title": "Results & Output",
+    "section": "",
+    "text": "Routing\nOrigin-Destination Matrix\n\n\n\n\nOptimal Route for COST and RISK\nImpedance values for solution pairs\n\n\n- Impedance with…\n\n\n\n- Truck_Risk: Details\n\n\n\n- Truck_Cost: Details\n\n\n\n- Rail_Risk: Details\n\n\n\n- Rail_Cost: Details\n\n\n\n- Pipeline_Risk: Details"
+  },
+  {
+    "objectID": "Exploratory Analysis/index.html#output-example",
+    "href": "Exploratory Analysis/index.html#output-example",
+    "title": "Results & Output",
+    "section": "Output Example",
+    "text": "Output Example"
+  },
+  {
+    "objectID": "index.html#methodology",
+    "href": "index.html#methodology",
+    "title": "CPLN 6800 GIS Capstone: CO2 Transportation",
+    "section": "Methodology",
+    "text": "Methodology\nOur main workflow is to develop and calculate the risk and cost constraints of each road/link segment of our network, and optimize based on the constraints to minimize cost & risk.\n\n\n\nWorkflow"
+  },
+  {
+    "objectID": "index.html#visual-overview-of-transport-networks-in-texas",
+    "href": "index.html#visual-overview-of-transport-networks-in-texas",
+    "title": "CPLN 6800 GIS Capstone: CO2 Transportation",
+    "section": "Visual Overview of Transport Networks in Texas",
+    "text": "Visual Overview of Transport Networks in Texas\nHere, we can visualize the different transport modes considered in this study:\n\n  \n\nOur multimodal transportation network with connector built is shown below:"
   }
 ]

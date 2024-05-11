@@ -5,28 +5,43 @@ subtitle: "A Case Study on Texas State"
 
 ## Introduction
 
-We seek to understand how feasible multimodal transport routes are in optimizing for minimal monetary costs and minimal social and environmental risk. 
+We seek to understand how feasible multimodal transport routes are in optimizing for minimal monetary costs and minimal social and environmental risk for CO2 Transportation. 
 
-![Texas](images/texas2.jpg)
+![CCS Capacity](images/CCS.png)
 
 ::: {.callout-important}
 Further inputs are needed to complete this project
 :::
 
+## Methodology
+
+Our main workflow is to develop and calculate the risk and cost constraints of each road/link segment of our network, and optimize based on the constraints to minimize cost & risk.
+
+![Workflow](images/Workflow.png)
+
+
 ## Study Area Selection
 
-Why Texas? According to ... Texas State emits far more than any other states in the US. 
+Why Texas? According to Energy Information Administration (EIA), Texas State emits the most CO2 across all states, over 600 million tons, far more than any other states in the US. This is due to the state's numerous heavy industries including oil and gas refineries, dense population, and well-developed infrastructure and transportation system. 
 
 ![US States Average Annual CO2 Emission by 2021](images/US-co2-state.png)
 
 
-## Visual Overview of Multimodal Transport Routes
+## Visual Overview of Transport Networks in Texas
 
 Here, we can visualize the different transport modes considered in this study: 
 
-![Transport Mode Route Map - Pipe](images/texas_pipe.jpg)
-![Transport Mode Route Map - Rail](images/texas_rail.jpg)
-![Transport Mode Route Map - Truck](images/texas_truck.jpg)
+
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="images/texas_pipe.jpg" alt="Transport Mode - CO2 Pipeline" style="width: 32%; margin: 5px; height: auto;">
+  <img src="images/texas_rail.jpg" alt="Transport Mode - Railway" style="width: 32%; margin: 5px; height: auto;">
+  <img src="images/texas_truck.jpg" alt="Transport Mode - Road for Truck" style="width: 32%; margin: 5px; height: auto;">
+</div>
+
+
+Our multimodal transportation network with connector built is shown below: 
+![Texas Multimodal](images/texas2.jpg)
+
 
 ## Cost and Risk Analysis
 
@@ -35,11 +50,13 @@ In this section, we analyze the costs associated with each transport mode and ev
 ![Risk Analysis Equations](images/Risk Equations.png)
 
 
+::: {.callout-important}
+Further inputs are needed to complete this 
+:::
+
 ## Additional Resources and References
 
-Here are some further resources and references used in this project:
 
-![References Image](path/to/your/references-image.png)
 
 
 

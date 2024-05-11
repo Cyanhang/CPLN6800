@@ -12,7 +12,7 @@ website:
 
   page-footer:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; CC-Ke Zhou, Hang Zhao, Timothy Oliver, Nohman; 2024"
+    left: "&copy; CC-Ke Zhou, Timothy Oliver, Hang Zhao, Nohman; 2024"
 
   sidebar:
     logo: "images/UPenn.png"
@@ -34,16 +34,12 @@ website:
       - href: index.qmd
         text: Main
       - about.qmd
-      - section: Exploratory Analysis/index.qmd
+      - section: Exploratory Analysis
         contents:
-          - Exploratory Analysis/1-python-code-blocks.qmd 
-          - Exploratory Analysis/2-static-images.ipynb
-          - Exploratory Analysis/3-altair-hvplot.ipynb
-          - Exploratory Analysis/4-folium.ipynb
-      - section: Preliminary Results/index.qmd
-        contents:
-          - Preliminary Results/1-python-code-blocks.qmd 
-
+          - href: Exploratory Analysis/index.qmd
+            text: Analysis Overview
+        
+      
 format:
   html:
     highlight-style: solarized

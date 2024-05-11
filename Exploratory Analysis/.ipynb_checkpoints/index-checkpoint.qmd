@@ -1,11 +1,27 @@
-# Analysis
+---
+title: "Results & Output"
+---
 
-This section includes examples of technical analysis done using Jupyter notebooks.
-Each sub-section highlights different types of analyses and visualizations.
-In particular, it highlights that we can easily publish interactive visualizations
-produced with packages such as hvPlot, altair, or Folium, without losing
-any of the interactive features. 
+## Routing and Origin-Destination Matrix Analysis
 
-On this page, you might want to share more introductory or background information about 
-the analyses to help guide the reader. 
+| Routing                                                      | Origin-Destination Matrix                             |
+|--------------------------------------------------------------|-------------------------------------------------------|
+| **Optimal Route for COST and RISK**                          | **Impedance values for solution pairs**               |
+| - Impedance with...                                          |                                                       |
+|   - **Truck_Risk**: Details                                  |                                                       |
+|   - **Truck_Cost**: Details                                  |                                                       |
+|   - **Rail_Risk**: Details                                   |                                                       |
+|   - **Rail_Cost**: Details                                   |                                                       |
+|   - **Pipeline_Risk**: Details                               |                                                       |
+
+
+
+## Output Example
+
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="output1.jpg" alt="Output Example 1" style="width: 32%; margin: 5px; height: auto;">
+  <img src="output2.jpg" alt="Output Example 2" style="width: 32%; margin: 5px; height: auto;">
+  <img src="output3.jpg" alt="Output Example 3" style="width: 32%; margin: 5px; height: auto;">
+</div>
+
 

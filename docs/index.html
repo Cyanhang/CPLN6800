@@ -115,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./Exploratory Analysis/index.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
  <span class="menu-text">Exploratory Analysis</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -124,42 +124,10 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Exploratory Analysis/1-python-code-blocks.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Python code blocks</span></a>
+  <a href="./Exploratory Analysis/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Analysis Overview</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Exploratory Analysis/2-static-images.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Showing static visualizations</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Exploratory Analysis/3-altair-hvplot.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Altair and Hvplot Charts</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Exploratory Analysis/4-folium.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Interactive Maps with Folium</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="./Preliminary Results/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preliminary Results</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
- <span class="menu-text">Preliminary Results/1-python-code-blocks.qmd</span>
-  </li>
       </ul>
   </li>
     </ul>
@@ -173,8 +141,9 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
   <li><a href="#study-area-selection" id="toc-study-area-selection" class="nav-link" data-scroll-target="#study-area-selection">Study Area Selection</a></li>
-  <li><a href="#visual-overview-of-multimodal-transport-routes" id="toc-visual-overview-of-multimodal-transport-routes" class="nav-link" data-scroll-target="#visual-overview-of-multimodal-transport-routes">Visual Overview of Multimodal Transport Routes</a></li>
+  <li><a href="#visual-overview-of-transport-networks-in-texas" id="toc-visual-overview-of-transport-networks-in-texas" class="nav-link" data-scroll-target="#visual-overview-of-transport-networks-in-texas">Visual Overview of Transport Networks in Texas</a></li>
   <li><a href="#cost-and-risk-analysis" id="toc-cost-and-risk-analysis" class="nav-link" data-scroll-target="#cost-and-risk-analysis">Cost and Risk Analysis</a></li>
   <li><a href="#additional-resources-and-references" id="toc-additional-resources-and-references" class="nav-link" data-scroll-target="#additional-resources-and-references">Additional Resources and References</a></li>
   </ul>
@@ -203,11 +172,11 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>We seek to understand how feasible multimodal transport routes are in optimizing for minimal monetary costs and minimal social and environmental risk.</p>
+<p>We seek to understand how feasible multimodal transport routes are in optimizing for minimal monetary costs and minimal social and environmental risk for CO2 Transportation.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/texas2.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Texas</figcaption>
+<p><img src="images/CCS.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">CCS Capacity</figcaption>
 </figure>
 </div>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -224,9 +193,19 @@ Important
 </div>
 </div>
 </section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<p>Our main workflow is to develop and calculate the risk and cost constraints of each road/link segment of our network, and optimize based on the constraints to minimize cost &amp; risk.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Workflow.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Workflow</figcaption>
+</figure>
+</div>
+</section>
 <section id="study-area-selection" class="level2">
 <h2 class="anchored" data-anchor-id="study-area-selection">Study Area Selection</h2>
-<p>Why Texas? According to … Texas State emits far more than any other states in the US.</p>
+<p>Why Texas? According to Energy Information Administration (EIA), Texas State emits the most CO2 across all states, over 600 million tons, far more than any other states in the US. This is due to the state’s numerous heavy industries including oil and gas refineries, dense population, and well-developed infrastructure and transportation system.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/US-co2-state.png" class="img-fluid figure-img"></p>
@@ -234,10 +213,13 @@ Important
 </figure>
 </div>
 </section>
-<section id="visual-overview-of-multimodal-transport-routes" class="level2">
-<h2 class="anchored" data-anchor-id="visual-overview-of-multimodal-transport-routes">Visual Overview of Multimodal Transport Routes</h2>
+<section id="visual-overview-of-transport-networks-in-texas" class="level2">
+<h2 class="anchored" data-anchor-id="visual-overview-of-transport-networks-in-texas">Visual Overview of Transport Networks in Texas</h2>
 <p>Here, we can visualize the different transport modes considered in this study:</p>
-<p><img src="images/texas_pipe.jpg" class="img-fluid" alt="Transport Mode Route Map - Pipe"> <img src="images/texas_rail.jpg" class="img-fluid" alt="Transport Mode Route Map - Rail"> <img src="images/texas_truck.jpg" class="img-fluid" alt="Transport Mode Route Map - Truck"></p>
+<div style="display: flex; justify-content: space-around; align-items: center;">
+<p><img src="images/texas_pipe.jpg" alt="Transport Mode - CO2 Pipeline" style="width: 32%; margin: 5px; height: auto;"> <img src="images/texas_rail.jpg" alt="Transport Mode - Railway" style="width: 32%; margin: 5px; height: auto;"> <img src="images/texas_truck.jpg" alt="Transport Mode - Road for Truck" style="width: 32%; margin: 5px; height: auto;"></p>
+</div>
+<p>Our multimodal transportation network with connector built is shown below: <img src="images/texas2.jpg" class="img-fluid" alt="Texas Multimodal"></p>
 </section>
 <section id="cost-and-risk-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="cost-and-risk-analysis">Cost and Risk Analysis</h2>
@@ -248,16 +230,22 @@ Important
 <figcaption class="figure-caption">Risk Analysis Equations</figcaption>
 </figure>
 </div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Further inputs are needed to complete this</p>
+</div>
+</div>
 </section>
 <section id="additional-resources-and-references" class="level2">
 <h2 class="anchored" data-anchor-id="additional-resources-and-references">Additional Resources and References</h2>
-<p>Here are some further resources and references used in this project:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="path/to/your/references-image.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">References Image</figcaption>
-</figure>
-</div>
 
 
 </section>
@@ -499,7 +487,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© CC-Ke Zhou, Hang Zhao, Timothy Oliver, Nohman; 2024</div>   
+    <div class="nav-footer-left">© CC-Ke Zhou, Timothy Oliver, Hang Zhao, Nohman; 2024</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
