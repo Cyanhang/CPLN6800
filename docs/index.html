@@ -110,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About Professor</span></a>
+ <span class="menu-text">About the Group</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -143,8 +143,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
   <li><a href="#study-area-selection" id="toc-study-area-selection" class="nav-link" data-scroll-target="#study-area-selection">Study Area Selection</a></li>
-  <li><a href="#visual-overview-of-transport-networks-in-texas" id="toc-visual-overview-of-transport-networks-in-texas" class="nav-link" data-scroll-target="#visual-overview-of-transport-networks-in-texas">Visual Overview of Transport Networks in Texas</a></li>
-  <li><a href="#cost-and-risk-analysis" id="toc-cost-and-risk-analysis" class="nav-link" data-scroll-target="#cost-and-risk-analysis">Cost and Risk Analysis</a></li>
+  <li><a href="#visual-transport-modes-networks-in-texas" id="toc-visual-transport-modes-networks-in-texas" class="nav-link" data-scroll-target="#visual-transport-modes-networks-in-texas">Visual Transport Modes Networks in Texas</a></li>
+  <li><a href="#risk-analysis" id="toc-risk-analysis" class="nav-link" data-scroll-target="#risk-analysis">Risk Analysis</a></li>
   <li><a href="#additional-resources-and-references" id="toc-additional-resources-and-references" class="nav-link" data-scroll-target="#additional-resources-and-references">Additional Resources and References</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Cyanhang/CPLN6800/blob/main/index.qmd" class="toc-action">View source</a></p></div></div></nav>
@@ -179,19 +179,6 @@ ul.task-list li input[type="checkbox"] {
 <figcaption class="figure-caption">CCS Capacity</figcaption>
 </figure>
 </div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Further inputs are needed to complete this project</p>
-</div>
-</div>
 </section>
 <section id="methodology" class="level2">
 <h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
@@ -205,7 +192,7 @@ Important
 </section>
 <section id="study-area-selection" class="level2">
 <h2 class="anchored" data-anchor-id="study-area-selection">Study Area Selection</h2>
-<p>Why Texas? According to Energy Information Administration (EIA), Texas State emits the most CO2 across all states, over 600 million tons, far more than any other states in the US. This is due to the state’s numerous heavy industries including oil and gas refineries, dense population, and well-developed infrastructure and transportation system.</p>
+<p>Why Texas? According to the Energy Information Administration (EIA), Texas State emits the most CO2 across all states, over 600 million tons, far more than any other state in the US. This is due to the state’s numerous heavy industries including oil and gas refineries, dense population, and well-developed infrastructure and transportation system.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/US-co2-state.png" class="img-fluid figure-img"></p>
@@ -213,23 +200,46 @@ Important
 </figure>
 </div>
 </section>
-<section id="visual-overview-of-transport-networks-in-texas" class="level2">
-<h2 class="anchored" data-anchor-id="visual-overview-of-transport-networks-in-texas">Visual Overview of Transport Networks in Texas</h2>
+<section id="visual-transport-modes-networks-in-texas" class="level2">
+<h2 class="anchored" data-anchor-id="visual-transport-modes-networks-in-texas">Visual Transport Modes Networks in Texas</h2>
 <p>Here, we can visualize the different transport modes considered in this study:</p>
-<div style="display: flex; justify-content: space-around; align-items: center;">
-<p><img src="images/texas_pipe.jpg" alt="Transport Mode - CO2 Pipeline" style="width: 32%; margin: 5px; height: auto;"> <img src="images/texas_rail.jpg" alt="Transport Mode - Railway" style="width: 32%; margin: 5px; height: auto;"> <img src="images/texas_truck.jpg" alt="Transport Mode - Road for Truck" style="width: 32%; margin: 5px; height: auto;"></p>
+<div style="display: flex; justify-content: space-around; align-items: flex-end;">
+<figure class="figure">
+<img src="images/texas_pipe.jpg" alt="Transport Mode - CO2 Pipeline" style="width: 100%; height: auto;" class="figure-img">
+<figcaption class="figure-caption">
+Figure 4: CO2 pipelines in Texas.
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="images/texas_rail.jpg" alt="Transport Mode - Railway" style="width: 100%; height: auto;" class="figure-img">
+<figcaption class="figure-caption">
+Figure 5: Railway networks in Texas.
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="images/texas_truck.jpg" alt="Transport Mode - Road for Truck" style="width: 100%; height: auto;" class="figure-img">
+<figcaption class="figure-caption">
+Figure 6: Road networks in Texas.
+</figcaption>
+</figure>
 </div>
-<p>Our multimodal transportation network with connector built is shown below: <img src="images/texas2.jpg" class="img-fluid" alt="Texas Multimodal"></p>
+<p>Our multimodal transportation network with connector built is shown below: <img src="images/texas2.jpg" class="img-fluid" data-fig-align="center" data-fig-cap="Figure 7: Texas multimodal transport network." alt="Texas Multimodal"></p>
 </section>
-<section id="cost-and-risk-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="cost-and-risk-analysis">Cost and Risk Analysis</h2>
-<p>In this section, we analyze the costs associated with each transport mode and evaluate the associated social and environmental risks.</p>
+<section id="risk-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="risk-analysis">Risk Analysis</h2>
+<p>Risk Model for Pipelines are shown below.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Risk Equations.png" class="img-fluid figure-img"></p>
+<p><img src="images/riskequation.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Risk Analysis Equations</figcaption>
 </figure>
 </div>
+<p>X1Pi is the average amount of fatalities per incident for accident type Pi</p>
+<p>X2Pi is the average amount of injuries per incident for accident type Pi</p>
+<p>X3Pi is the distance from the location on the pipeline with the highest probability of an incident to the closest hospital in meters</p>
+<p>X4Pi is the average amount of CO2 released per incident for pipeline type Pi</p>
+<p>X5Pi is the total population in a radius of 5 km of the pipeline</p>
+<p>X6Pi is the total number of kilometers a pipeline traverses vulnerable land</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -240,7 +250,7 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Further inputs are needed to complete this</p>
+<p>Further inputs are needed to complete this project.</p>
 </div>
 </div>
 </section>

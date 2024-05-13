@@ -1,20 +1,26 @@
 ---
-title: "About Professor"
+title: "About the Group"
 ---
 
 <!-- Use a grid -->
 ::: {.grid}
 
-<!-- Left column has a width of 4/12 and shows a picture of Dr. Eric Delmelle -->
-::: {.g-col-4}
-![](images/Eric.jpeg){width=3in}
+<!-- A picture of our group (however Timothy is not here) -->
+::: {.g-col-6}
+![](images/Group.jpeg){width=100%}
 :::
 
-<!-- Text gets a column with width 8/12 -->
-::: {.g-col-8}
+<!-- texts -->
 
-This is the GIS Capstone project 
-::: 
+::: {.g-col-6}
+
+Clean Energy Conversion Lab, Kleinman Center for Energy Policy;<br>
+Master of City Planning;<br>
+Master of Urban Spatial Analytics;<br>
+Master of Environmental Studies
+
+:::
+
 
 :::
 
