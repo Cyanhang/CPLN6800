@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About the Group",
     "section": "",
-    "text": "Clean Energy Conversion Lab, Kleinman Center for Energy Policy; Master of City Planning; Master of Urban Spatial Analytics; Master of Environmental Studies"
+    "text": "Hélène Pilorgé: Clean Energy Conversion Lab, Kleinman Center for Energy Policy; Ke Zhou: Master of City Planning; Timothy Oliver & Nohman Akhtari: Master of Urban Spatial Analytics; Hang Zhao: Master of Environmental Studies, Certificate in GIS & Spatial Analysis;"
   },
   {
     "objectID": "analysis/4-folium.html",
@@ -179,7 +179,7 @@
     "href": "index.html#additional-resources-and-references",
     "title": "CPLN 6800 GIS Capstone: CO2 Transportation",
     "section": "Additional Resources and References",
-    "text": "Additional Resources and References"
+    "text": "Additional Resources and References\nSee our final report and slides."
   },
   {
     "objectID": "Preliminary Results/index.html",
@@ -228,7 +228,7 @@
     "href": "Exploratory Analysis/index.html#output-example",
     "title": "Results & Output",
     "section": "Output Example",
-    "text": "Output Example"
+    "text": "Output Example\n\n\n\n\nFigure 1: Output 1.\n\n\n\n\n\nFigure 2: Output 2.\n\n\n\n\n\nFigure 3: Output 3."
   },
   {
     "objectID": "index.html#methodology",
@@ -257,5 +257,12 @@
     "title": "CPLN 6800 GIS Capstone: CO2 Transportation",
     "section": "Risk Analysis",
     "text": "Risk Analysis\nRisk Model for Pipelines are shown below.\n\n\n\nRisk Analysis Equations\n\n\nX1Pi is the average amount of fatalities per incident for accident type Pi\nX2Pi is the average amount of injuries per incident for accident type Pi\nX3Pi is the distance from the location on the pipeline with the highest probability of an incident to the closest hospital in meters\nX4Pi is the average amount of CO2 released per incident for pipeline type Pi\nX5Pi is the total population in a radius of 5 km of the pipeline\nX6Pi is the total number of kilometers a pipeline traverses vulnerable land\n\n\n\n\n\n\nImportant\n\n\n\nFurther inputs are needed to complete this project."
+  },
+  {
+    "objectID": "Exploratory Analysis/index.html#our-final-presentation-slides",
+    "href": "Exploratory Analysis/index.html#our-final-presentation-slides",
+    "title": "Results & Output",
+    "section": "Our Final Presentation Slides",
+    "text": "Our Final Presentation Slides"
   }
 ]

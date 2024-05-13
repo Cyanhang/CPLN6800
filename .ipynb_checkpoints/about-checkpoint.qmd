@@ -14,10 +14,10 @@ title: "About the Group"
 
 ::: {.g-col-6}
 
-Clean Energy Conversion Lab, Kleinman Center for Energy Policy;<br>
-Master of City Planning;<br>
-Master of Urban Spatial Analytics;<br>
-Master of Environmental Studies
+Hélène Pilorgé: Clean Energy Conversion Lab, Kleinman Center for Energy Policy;<br>
+Ke Zhou: Master of City Planning;<br>
+Timothy Oliver & Nohman Akhtari: Master of Urban Spatial Analytics;<br>
+Hang Zhao: Master of Environmental Studies, Certificate in GIS & Spatial Analysis;
 
 :::
 

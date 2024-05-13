@@ -18,12 +18,23 @@ title: "Results & Output"
 
 ## Output Example
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="output1.jpg" alt="Output Example 1" style="width: 32%; margin: 2px; height: auto;"> 
-  <img src="output2.jpg" alt="Output Example 2" style="width: 32%; margin: 2px; height: auto;">
-  <img src="output3.jpg" alt="Output Example 3" style="width: 32%; margin: 2px; height: auto;">
+<div style="display: flex; justify-content: space-around; align-items: flex-end;">
+  <figure>
+    <img src="output1.jpg" alt="Output 1" style="width: 100%; margin: 2px; height: auto;">
+    <figcaption>Figure 1: Output 1.</figcaption>
+  </figure>
+  <figure>
+    <img src="output2.jpg" alt="Output 2" style="width: 100%; margin: 2px; height: auto;">
+    <figcaption>Figure 2: Output 2.</figcaption>
+  </figure>
+  <figure>
+    <img src="output3.jpg" alt="Output 3" style="width: 100%; margin: 2px; height: auto;">
+    <figcaption>Figure 3: Output 3.</figcaption>
+  </figure>
 </div>
 
+
+## Our Final Presentation Slides
 
 <iframe src="capstone_presentation.pdf" style="width:100%; height:500px;" frameborder="0"></iframe>
 
